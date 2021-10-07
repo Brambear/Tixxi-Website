@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-color: #FFFDEC;
+  background-image: url("../photos/bg2.jpg");
+  /*background-blend-mode: darken;*/
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Title section */
+#title {
+  text-align: center;
+  font-family: "Rochester";
+  padding: 5% 3%;
+}
+
+#comingSoon {
+  text-align: center;
+  padding: 5% 3%;
+}
+
+/* Footer section */
+#footer {
+  text-align: center;
+  font-family: "Rochester";
+}
+
+.row {
+  text-align: center;
+}
+
+.contact-icons {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-icon {
+  padding: 20px;
+}
+
+.footer-logo {
+  width: 40px;
+  padding: 20px 0 10px 0;
+}

@@ -1,0 +1,169 @@
+/* Color palette 1*/
+/* #f3f3f3 */
+/* #ffdd67 */
+/* #ffcd38 */
+/* #4a4a4a */
+
+/* Color palette 2 */
+/* #00A19D */
+/* #FFF8E5 */
+/* #FFB344 */
+/* #E05D5D */
+
+/* Color palette 3 */
+/* #11052C */
+/* #3D087B */
+/* #F43B86 */
+/* #FFE459 */
+
+/* #FFF */
+
+body {
+  background-color: #FFF;
+}
+
+h1 {
+  color: #F43B86;
+}
+
+h4 {
+  color: #F43B86;
+}
+
+p {
+  color: #11052C;
+}
+
+.section-title {
+  text-align: left;
+}
+/* Nav Bar section */
+
+#nav-bar {
+  padding: 0 3%;
+  margin: 0;
+  background-color: #F43B86;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.nav-logo {
+  width: 40px;
+}
+
+/* Title section */
+
+#title {
+  /* background-image: linear-gradient(to right, #F43B86, #3D087B); */
+  /* background-color: #11052C; */
+  background-color: rgba(244,59,134,0.4);
+  text-align: center;
+  font-family: "Rochester";
+  padding: 3% 3%;
+  /* margin: 1% 0%; */
+  margin: 0;
+  /* border-style: solid; */
+  /* border-width: 1px; */
+}
+
+#header {
+  /* background-color: rgba(244,59,134,0.8); */
+  background-color: #DDDDDB;
+  padding: 3%;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+}
+
+#styles {
+  /* background-color: rgba(244,59,134,0.2); */
+  background-color: #DDDDDB;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#clean, #faded, #bright-white {
+  margin: 0;
+  padding: 3% 0;
+  background-color: #ffdd67;
+}
+
+#black-white, #moody, #custom {
+  margin: 0;
+  padding: 3% 0;
+  background-color: #fff;
+}
+
+#sepia, #bohemian {
+  margin: 0;
+  padding: 3% 0;
+  background-color: #DDDDDB;
+}
+
+.style-image {
+  max-width: 100%;
+  height: 400px;
+  margin: 0 20px;
+  box-shadow: 5px 5px 3px grey;
+}
+
+/* Contact section*/
+#contact {
+  text-align: center;
+  padding: 1% 3% 0;
+}
+
+.contact-icon {
+  padding: 20px;
+}
+
+.contact-icons {
+  text-align: center;
+}
+
+/* Footer section*/
+#footer {
+  text-align: left;
+  font-family: "Rochester";
+  padding: 10px 3% 10px;
+  background-color: #F43B86;
+}
+
+.footer-logo {
+  width: 40px;
+  padding: 14px 0;
+}
+
+.footer-text {
+  padding: 20px 0;
+}
+
+.img-portfolio {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.photo-row{
+  padding: 12px;
+}
+
+#to-top-btn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#to-top-btn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}

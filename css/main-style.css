@@ -38,10 +38,10 @@ body {
 
 /* Nav Bar section */
 .new-navigation {
-  padding: 0;
+  padding: 10px;
   background-color: #f3f3f3;
-  border-style: solid;
-  border-width: 0 0 1px;
+  /*border-style: solid;*/
+  /*border-width: 0 0 1px;*/
 }
 
 .nav-logo-big {
@@ -81,69 +81,12 @@ body {
   width: 40px;
 }
 
-/* Title section */
-#title {
-  text-align: center;
-  font-family: "Rochester";
-  padding: 200px 0;
-  color: black ;
-  background-image: url("../photos/bg1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-blend-mode: lighten;
-}
-
-/* Intro section */
-#intro {
-  background-color: #f3f3f3;
-  padding: 100px 0 200px;
-}
-
-.intro-column{
-  /* padding: 0 3%; */
-  text-align: justify;
-  justify-content: center;
-}
-
-.intro-photo {
-  max-width: 100%;
-  box-shadow: 5px 5px 3px grey;
-}
-
 .centered {
   text-align: center;
 }
 
 .left-aligned {
   text-align: left;
-}
-
-/* Aanbod / Pricing section */
-#pricing {
-  padding: 100px 0 200px;
-}
-
-#styling {
-  padding: 100px 0 200px;
-  background-color: #4a4a4a;
-}
-
-.styling-image {
-  width: 75%;
-  margin: 10px;
-  text-align: center;
-}
-
-/* Photography section*/
-#photography {
-  padding: 100px 0 200px;
-  background-color: #fff;
-}
-
-.photography-col {
-  text-align: center;
 }
 
 /* Contact section*/
@@ -164,7 +107,8 @@ body {
 #footer {
   text-align: left;
   font-family: "Roboto";
-  padding: 10px 3% 10px;
+  /*padding: 10px 3% 10px;*/
+  padding: 10px;
   background-color: #f3f3f3;
 }
 
